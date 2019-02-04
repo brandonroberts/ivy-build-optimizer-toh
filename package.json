@@ -1,0 +1,52 @@
+{
+  "name": "angular.io-example",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "git+ssh://git@github.com:angular/animations-builds",
+    "@angular/common": "git+ssh://git@github.com:angular/common-builds",
+    "@angular/compiler": "git+ssh://git@github.com:angular/compiler-builds",
+    "@angular/core": "git+ssh://git@github.com:angular/core-builds",
+    "@angular/forms": "git+ssh://git@github.com:angular/forms-builds",
+    "@angular/http": "git+ssh://git@github.com:angular/http-builds",
+    "@angular/platform-browser": "git+ssh://git@github.com:angular/platform-browser-builds",
+    "@angular/platform-browser-dynamic": "git+ssh://git@github.com:angular/platform-browser-dynamic-builds",
+    "@angular/router": "git+ssh://git@github.com:angular/router-builds",
+    "angular-in-memory-web-api": "^0.6.0",
+    "core-js": "^2.5.4",
+    "rxjs": "^6.3.0",
+    "web-animations-js": "^2.3.1",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.11.0",
+    "@angular/cli": "7.3.0",
+    "@angular/compiler-cli": "git+ssh://git@github.com:angular/compiler-cli-builds",
+    "@angular/language-service": "git+ssh://git@github.com:angular/language-service-builds",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.3.0",
+    "jasmine-core": "~2.99.1",
+    "jasmine-marbles": "^0.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~3.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.1.1"
+  }
+}
